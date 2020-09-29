@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-29T12:34:32.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="4kbBG-2VgUmESaXENAvJ" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-29T12:36:35.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="skVshclo3MI8Joz2dGSW" version="13.7.5" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -378,7 +378,7 @@
         <mxCell id="5vioWzcPlRAjCOmZEAe--206" value="ETL on mysql:&lt;br&gt;atsx2_bi_etl_load_data_mysql&lt;br&gt;atsx2_bi_etl_load_data_mysql_fixup&lt;br&gt;atsx2_bi_etl_load_data_mysql_manual" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#67AB9F;sketch=0;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="910" y="900" width="215" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="5vioWzcPlRAjCOmZEAe--208" value="数仓 - Mysql 维表生成" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#FFFFFF;fontColor=#1D3557;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="5vioWzcPlRAjCOmZEAe--208" value="数仓 - Mysql 计算集群" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#FFFFFF;fontColor=#1D3557;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="110" y="1410" width="910" height="230" as="geometry" />
         </mxCell>
         <mxCell id="5vioWzcPlRAjCOmZEAe--209" value="atsx2_dim_agency_supplier_info" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#9AC7BF;fontColor=#1D3557;align=center;" vertex="1" parent="1">
@@ -441,8 +441,11 @@
         <mxCell id="5vioWzcPlRAjCOmZEAe--228" value="atsx2_dim_utc_day" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#9AC7BF;fontColor=#1D3557;align=center;" vertex="1" parent="1">
           <mxGeometry x="890" y="1500" width="122.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5vioWzcPlRAjCOmZEAe--234" value="ETL on mysql:&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#67AB9F;fontColor=#1D3557;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="525" y="1310" width="205" height="60" as="geometry" />
+        <mxCell id="5vioWzcPlRAjCOmZEAe--234" value="ETL on mysql:&lt;br&gt;atsx2_bi_etl_gen_dim&lt;br&gt;atsx2_bi_etl_gen_dim_fixup&lt;br&gt;atsx2_bi_etl_gen_dim_manual" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#67AB9F;fontColor=#1D3557;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1310" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5vioWzcPlRAjCOmZEAe--235" value="数仓 - Clickhouse 计算集群" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#FFFFFF;fontColor=#1D3557;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1830" width="910" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
