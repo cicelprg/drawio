@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T11:59:22.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="4O8S-LNrdrhii15sDNaR" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T12:00:57.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="C48JxQYdqeLn5b3V6vYf" version="13.9.1" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -315,7 +315,7 @@
         <mxCell id="x5p53JLdajqoWZ6c-LID-39" value="DataType&amp;nbsp;&lt;br&gt;deserialize" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="290" y="3400" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x5p53JLdajqoWZ6c-LID-42" value="读取二进制流，反序列化" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="x5p53JLdajqoWZ6c-LID-42" value="读取二进制流，反序列化，由派生类实现deserializeBinaryBulk方法" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="260" y="3300" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
