@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T12:42:12.117Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="j8PwKLTOQM05_j4Z4WtF" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-02T03:29:51.378Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="XtR-_FibyqdxWM7_d32V" version="13.9.9" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -686,10 +686,16 @@
         <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-44" value="这里是UInt8，大小 8 * limit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="2520" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-47" value="CountingBlockOutputStream" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="tQ6yp_oP3Tbyb53zMRtZ-47" target="tQ6yp_oP3Tbyb53zMRtZ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-47" value="NativeBlockInputStream -&amp;gt; read" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="170" y="3750" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-48" value="CountingBlockOutputStream" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="tQ6yp_oP3Tbyb53zMRtZ-48" target="tQ6yp_oP3Tbyb53zMRtZ-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-48" value="CountingBlockOutputStream -&amp;gt; write" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="170" y="3870" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="tQ6yp_oP3Tbyb53zMRtZ-49" target="tQ6yp_oP3Tbyb53zMRtZ-52">
@@ -817,6 +823,48 @@
         </mxCell>
         <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-122" value="基础类型枚举：&lt;br&gt;Null、UInt64、Int64、Float64、UInt128、Int128、String、Array、Tuple、Decimal32、Decimal64、Decimal128、AggregateFunctionState" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1810" y="490" width="250" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="tQ6yp_oP3Tbyb53zMRtZ-125" target="tQ6yp_oP3Tbyb53zMRtZ-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-125" value="AddingDefaultBlockOutputStream -&amp;gt; write" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="3980" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-127" value="state.block_in，从socket中读取数据，返回一个Block" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="3755" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-128" value="state.io.out，把读取的block写出，做了一些行数和大小的统计，" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="3875" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-129" value="上游stream调用，增加列的默认值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="3985" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="tQ6yp_oP3Tbyb53zMRtZ-130" target="tQ6yp_oP3Tbyb53zMRtZ-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-130" value="SquashingBlockOutputStream -&amp;gt; write" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="4100" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-131" value="上游stream调用，合并多个Block同时写入" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="4110" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="tQ6yp_oP3Tbyb53zMRtZ-133" target="tQ6yp_oP3Tbyb53zMRtZ-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-133" value="PushingToViewsBlockOutputStream -&amp;gt; write" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="4220" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-134" value="上游stream调用，更新物化视图" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="4225" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-136" value="Storage.Stream.Write" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="4320" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-138" value="上游stream调用，storage的stream写入磁盘" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="4325" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tQ6yp_oP3Tbyb53zMRtZ-139" value="Storage 初始化流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1219" y="3730" width="241" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
