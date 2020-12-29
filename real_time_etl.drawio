@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T11:56:33.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="mLsEUZ1VKju8j87_Vz6N" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T02:36:33.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="z-5iLZdEp7E-D4YyLDcq" version="14.0.1" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-56" value="后端rocketmq" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="215" y="1873.75" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-67" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-58" target="ZxhqOC5vJH2Z66Pt62t_-66">
+        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-67" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6F0000;fillColor=#a20025;fontColor=#1D3557;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-58" target="ZxhqOC5vJH2Z66Pt62t_-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-70" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-58" target="ZxhqOC5vJH2Z66Pt62t_-69">
@@ -157,6 +157,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-72" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-58" target="ZxhqOC5vJH2Z66Pt62t_-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-116" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#b85450;fillColor=#f8cecc;fontColor=#1D3557;dashed=1;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-58" target="ZxhqOC5vJH2Z66Pt62t_-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-58" value="BMQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;sketch=0;strokeColor=#82b366;direction=south;fillColor=#97D077;" vertex="1" parent="1">
@@ -174,7 +177,7 @@
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-63" value="Hive" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#97D077;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="420" y="2040" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-100" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-66" target="ZxhqOC5vJH2Z66Pt62t_-98">
+        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-100" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeColor=#6F0000;fillColor=#a20025;fontColor=#1D3557;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-66" target="ZxhqOC5vJH2Z66Pt62t_-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-66" value="clickhosue/mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#97D077;fontColor=#1D3557;" vertex="1" parent="1">
@@ -238,10 +241,10 @@
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-94" value="Hive" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#97D077;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="420" y="2190" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-97" value="导入clickhouse和mysql，生成新分区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="710" y="2190" width="210" height="20" as="geometry" />
+        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-97" value="导入clickhouse和mysql，生成新分区，新链路" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2190" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-101" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-98" target="ZxhqOC5vJH2Z66Pt62t_-79">
+        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-101" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#6F0000;fillColor=#a20025;fontColor=#1D3557;" edge="1" parent="1" source="ZxhqOC5vJH2Z66Pt62t_-98" target="ZxhqOC5vJH2Z66Pt62t_-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-98" value="离线ETL In clickhouse" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
@@ -250,8 +253,8 @@
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-102" value="查询引擎" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="1270" y="1997.81" width="100" height="59.38" as="geometry" />
         </mxCell>
-        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-103" value="生成新分区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="820" y="2080" width="70" height="20" as="geometry" />
+        <mxCell id="ZxhqOC5vJH2Z66Pt62t_-103" value="生成新分区，老的链路" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2080" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZxhqOC5vJH2Z66Pt62t_-104" value="写入当前分区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1920.63" width="90" height="20" as="geometry" />
