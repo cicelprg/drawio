@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T06:51:47.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KnPTMznC7GMZGsMasY23" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-08T08:26:31.549Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qOe929F3oC70VWAMYGI_" version="14.0.1" type="github">
   <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
-    <mxGraphModel dx="1892" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="_7zstpGPQZ-7KqbivNWj-96" value="union all" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" parent="1" vertex="1">
           <mxGeometry x="1174" y="1880" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_7zstpGPQZ-7KqbivNWj-97" value="&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;atsx2_stg_application_extend_split&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=#1D3557;" parent="1" vertex="1">
+        <mxCell id="_7zstpGPQZ-7KqbivNWj-97" value="&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;atsx2_stg_application_extend_split&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="1240" y="1670" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_7zstpGPQZ-7KqbivNWj-98" value="&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;atsx2_stg_application&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=#1D3557;" parent="1" vertex="1">
@@ -238,6 +238,15 @@
         </mxCell>
         <mxCell id="WxNTJeKxOIS2F9CJwkOv-51" value="left join + 过滤 + 子查询条件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="1560" y="2100" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WxNTJeKxOIS2F9CJwkOv-53" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="WxNTJeKxOIS2F9CJwkOv-52" target="_7zstpGPQZ-7KqbivNWj-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxNTJeKxOIS2F9CJwkOv-52" value="&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34;&quot;&gt;atsx2_stg_application_extend&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1670" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WxNTJeKxOIS2F9CJwkOv-54" value="python代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1660" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
