@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T10:43:58.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Ch5GOG3RDf4RVwsaowFe" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T10:48:47.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Nwco-Za0X_9E0cgl-uKu" version="14.2.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="50000" pageHeight="50000" background="#ffffff" math="0" shadow="0">
       <root>
@@ -210,9 +210,6 @@
         <mxCell id="DO03SFJL4zoVRPI61iXm-24" value="监控报警" style="whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;strokeColor=#000033;dashed=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="900" y="620" width="120" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="DO03SFJL4zoVRPI61iXm-25" value="作业状态" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;dashed=1;strokeColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="922.5" y="770" width="70" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="DO03SFJL4zoVRPI61iXm-26" value="数据行数" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
           <mxGeometry x="922.5" y="660" width="65" height="20" as="geometry" />
         </mxCell>
@@ -222,8 +219,20 @@
         <mxCell id="DO03SFJL4zoVRPI61iXm-29" value="数据延迟" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
           <mxGeometry x="922.5" y="730.5" width="65" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DO03SFJL4zoVRPI61iXm-30" value="kafka lag值" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;dashed=1;strokeColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="922.5" y="815" width="70" height="20" as="geometry" />
+        <mxCell id="DO03SFJL4zoVRPI61iXm-32" value="作业状态" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#76608a;align=center;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="770" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-33" value="kakfa队列lag值" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#76608a;align=center;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="810" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-34" value="rocket mq 队列lag值监控" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#76608a;align=center;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="862.5" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-35" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#76608a;align=center;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1207.5" y="885" width="40" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-36" value="公司服务" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="882.5" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
