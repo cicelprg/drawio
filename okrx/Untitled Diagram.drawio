@@ -1,18 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T07:53:16.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="-vu9XfELzzdLtIg22OM-" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T07:56:46.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="TS5IZn-Yii3gxcLqcXpN" version="14.2.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-11" value="业务数据库" style="whiteSpace=wrap;html=1;imageAspect=0;fillColor=none;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="840" y="280" width="140" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-12" value="ATSX" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=none;align=center;" vertex="1" parent="1">
-          <mxGeometry x="120" y="110" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-19" value="ES kafka 集群" style="whiteSpace=wrap;html=1;imageAspect=0;fillColor=none;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="280" width="140" height="270" as="geometry" />
-        </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1" source="NLmopnV-vXzY3RXHKh_Q-24" target="NLmopnV-vXzY3RXHKh_Q-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -105,10 +96,7 @@
           <mxGeometry x="725" y="642.5" width="55" height="65" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-59" value="Flink 计算/调度平台" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="280" y="642.5" width="170" height="107.5" as="geometry" />
-        </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-60" value="CDC" style="whiteSpace=wrap;html=1;strokeWidth=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="60" y="440" width="220" height="110" as="geometry" />
+          <mxGeometry x="190" y="300" width="140" height="210" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;" edge="1" parent="1" source="NLmopnV-vXzY3RXHKh_Q-61" target="NLmopnV-vXzY3RXHKh_Q-57">
           <mxGeometry relative="1" as="geometry" />
@@ -127,6 +115,21 @@
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-69" value="Mysql2Ch" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;align=center;" vertex="1" parent="1">
           <mxGeometry x="640" y="655" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-72" value="Flink 作业1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" y="340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-73" value="Flink 作业2" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-74" value="Flink 作业3" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-75" value="...." style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-77" value="Kafka 集群" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="395" y="300" width="115" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
