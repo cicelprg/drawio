@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T09:21:27.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="cZ9CsO6ZuP1tVT5fTVAe" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T09:23:10.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="GXv2DnR37243Lt-ohjzh" version="14.2.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="50000" pageHeight="50000" background="#ffffff" math="0" shadow="0">
       <root>
@@ -226,7 +226,7 @@
             <mxPoint x="832.5" y="1686.25" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-152" value="数仓" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=right;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-152" value="数仓存储" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=right;verticalAlign=top;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="1631.25" width="226.25" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-153" value="Mysql2CH" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
@@ -267,14 +267,14 @@
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="NLmopnV-vXzY3RXHKh_Q-177" target="NLmopnV-vXzY3RXHKh_Q-179">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-177" value="业务binlog" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;align=center;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1476.25" width="75" height="55" as="geometry" />
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-177" value="OKR binlog" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;align=center;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1476.25" width="75" height="55" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="NLmopnV-vXzY3RXHKh_Q-179" target="NLmopnV-vXzY3RXHKh_Q-218">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-179" value="敏感数据加密" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1477.5" width="80" height="52.5" as="geometry" />
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-179" value="数据脱敏" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1477.5" width="80" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NLmopnV-vXzY3RXHKh_Q-191" target="NLmopnV-vXzY3RXHKh_Q-146">
           <mxGeometry relative="1" as="geometry">
@@ -288,40 +288,40 @@
           <mxGeometry x="727.5" y="1600" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-205" value="图例" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#0000FF;strokeWidth=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1740" width="172.5" height="205" as="geometry" />
+          <mxGeometry x="1030" y="1440" width="172.5" height="205" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-207" value="数据流向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="167.5" y="1765" width="60" height="20" as="geometry" />
+          <mxGeometry x="1117.5" y="1465" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-208" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;align=center;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="87.5" y="1798.75" width="55" height="26.25" as="geometry" />
+          <mxGeometry x="1037.5" y="1498.75" width="55" height="26.25" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-211" value="数据通道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="167.5" y="1805" width="60" height="20" as="geometry" />
+          <mxGeometry x="1117.5" y="1505" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-212" value="" style="endArrow=classic;html=1;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="92.5" y="1772.5" as="sourcePoint" />
-            <mxPoint x="142.5" y="1772.75" as="targetPoint" />
+            <mxPoint x="1042.5" y="1472.5" as="sourcePoint" />
+            <mxPoint x="1092.5" y="1472.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-213" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
-          <mxGeometry x="87.5" y="1845" width="55" height="20" as="geometry" />
+          <mxGeometry x="1037.5" y="1545" width="55" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-214" value="业务模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="167.5" y="1845" width="60" height="20" as="geometry" />
+          <mxGeometry x="1117.5" y="1545" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-215" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;fillColor=#1ba1e2;align=center;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="92.5" y="1885" width="45" height="48.75" as="geometry" />
+          <mxGeometry x="1042.5" y="1585" width="45" height="48.75" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-216" value="存储服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="167.5" y="1900" width="60" height="20" as="geometry" />
+          <mxGeometry x="1117.5" y="1600" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeWidth=1;" edge="1" parent="1" source="NLmopnV-vXzY3RXHKh_Q-218" target="NLmopnV-vXzY3RXHKh_Q-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-218" value="入Kafka" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1477.5" width="80" height="52.5" as="geometry" />
+          <mxGeometry x="380" y="1477.5" width="80" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-223" value="Flink 计算/调度平台" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=right;verticalAlign=top;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="688.13" y="1448.75" width="226.25" height="110" as="geometry" />
@@ -330,7 +330,7 @@
           <mxGeometry x="732.5" y="1476.25" width="88.75" height="25" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-225" value="Java Flink 作业" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
-          <mxGeometry x="732.5" y="1526.25" width="88.75" height="25" as="geometry" />
+          <mxGeometry x="732.5" y="1520" width="88.75" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
