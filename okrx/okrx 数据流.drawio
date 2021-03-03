@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T10:51:48.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="o7dPznDNd7f32FtiiRvf" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T10:52:50.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="u6aM7B9SRSy0oneWzkUD" version="14.2.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="50000" pageHeight="50000" background="#ffffff" math="0" shadow="0">
       <root>
@@ -236,6 +236,15 @@
         </mxCell>
         <mxCell id="DO03SFJL4zoVRPI61iXm-37" value="元数据" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;fillColor=none;verticalAlign=top;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="620" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-39" value="kafka队列状态" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#76608a;align=center;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="920" width="65" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-40" value="rocketmq 队列状态" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#76608a;align=center;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="927.5" y="980" width="65" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-41" value="...." style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#76608a;align=center;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="927.5" y="1042.5" width="65" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
