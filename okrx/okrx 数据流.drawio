@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T10:33:05.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="WI_h0tlXjl1hnQMhpbBM" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T10:43:58.805Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="Ch5GOG3RDf4RVwsaowFe" version="14.2.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="50000" pageHeight="50000" background="#ffffff" math="0" shadow="0">
       <root>
@@ -25,13 +25,13 @@
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-38" value="DBUS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="1110" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-40" value="字节主业务队列" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;align=center;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-40" value="字节主业务队列" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#647687;align=center;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="420" y="1050" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-41" value="非字节主业务队列" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;align=center;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-41" value="非字节主业务队列" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#647687;align=center;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="510" y="1050" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-42" value="字节dasshboard 队列" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;align=center;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-42" value="字节dasshboard 队列" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#647687;align=center;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="605" y="1050" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;" parent="1" source="NLmopnV-vXzY3RXHKh_Q-43" target="NLmopnV-vXzY3RXHKh_Q-51" edge="1">
@@ -46,7 +46,7 @@
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-45" value="Binlog2Kafka" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" parent="1" vertex="1">
           <mxGeometry x="465" y="947" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-46" value="非字节dashboard队列" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;align=center;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-46" value="非字节dashboard队列" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#647687;align=center;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="715" y="1050" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.902;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;exitPerimeter=0;" parent="1" source="NLmopnV-vXzY3RXHKh_Q-51" target="NLmopnV-vXzY3RXHKh_Q-62" edge="1">
@@ -135,17 +135,11 @@
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-132" value="kafka消息队列" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1275" y="770" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-138" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;align=center;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="NLmopnV-vXzY3RXHKh_Q-142" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="810" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-139" value="RMQ消息队列" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="810" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="NLmopnV-vXzY3RXHKh_Q-142" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="850" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="NLmopnV-vXzY3RXHKh_Q-143" value="模块框图" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="850" width="60" height="20" as="geometry" />
+          <mxGeometry x="1275" y="810" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DO03SFJL4zoVRPI61iXm-3" value="字节主库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=1;fillColor=#1ba1e2;align=center;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="420" y="1152.92" width="60" height="54.16" as="geometry" />
@@ -208,10 +202,28 @@
           <mxGeometry x="410" y="770" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DO03SFJL4zoVRPI61iXm-22" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;dashed=1;strokeColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="890" width="40" height="20" as="geometry" />
+          <mxGeometry x="1210" y="850" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DO03SFJL4zoVRPI61iXm-23" value="公司平台" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1275" y="890" width="60" height="20" as="geometry" />
+          <mxGeometry x="1275" y="850" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-24" value="监控报警" style="whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;align=left;strokeColor=#000033;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="900" y="620" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-25" value="作业状态" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;dashed=1;strokeColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="770" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-26" value="数据行数" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="660" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-27" value="异常值监控" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="695" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-29" value="数据延迟" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcd28;align=center;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="730.5" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DO03SFJL4zoVRPI61iXm-30" value="kafka lag值" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;align=left;dashed=1;strokeColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="922.5" y="815" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
