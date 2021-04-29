@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T09:28:25.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="vAtJRfmz5ZRvYujMlS7w" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-29T09:50:10.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="8rdVjC6mk3rZ2bfU3s6U" version="14.6.6" type="github">
   <diagram id="7rDAGg71SStgEw9H4X1u" name="Page-1">
-    <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="50000" pageHeight="50000" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="50000" pageHeight="50000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ebWJ66brjidnbOZUW0D--1" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ebWJ66brjidnbOZUW0D--1" value="Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="300" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ebWJ66brjidnbOZUW0D--2" value="Executor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -19,8 +19,17 @@
         <mxCell id="ebWJ66brjidnbOZUW0D--6" value="&lt;span&gt;SequentialExecutor&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ebWJ66brjidnbOZUW0D--7" value="&lt;span&gt;DagFileProcessorManager&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ebWJ66brjidnbOZUW0D--11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ebWJ66brjidnbOZUW0D--7" target="ebWJ66brjidnbOZUW0D--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebWJ66brjidnbOZUW0D--7" value="&lt;span&gt;DagFileProcessorManager&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="560" y="340" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebWJ66brjidnbOZUW0D--10" value="DagFileProcessorAgent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="510" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebWJ66brjidnbOZUW0D--14" value="Fork ：max threads&lt;br&gt;信号量进行交互" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="430" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
