@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T10:05:00.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="PcvDapO9fx9e9hI3PPbl" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-24T10:27:28.946Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="KiGDpFQiYA_aaJlx6D7Q" version="14.9.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -224,14 +224,32 @@
         <mxCell id="FqpEe1Tz1hvQf4iLvB-g-8" value="MergeTreeIndexMinMax" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1020" y="950" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RIkWLJw2QVvLqze7CGZ--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RIkWLJw2QVvLqze7CGZ--0" target="RIkWLJw2QVvLqze7CGZ--1">
+        <mxCell id="RIkWLJw2QVvLqze7CGZ--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RIkWLJw2QVvLqze7CGZ--0" target="RIkWLJw2QVvLqze7CGZ--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIkWLJw2QVvLqze7CGZ--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RIkWLJw2QVvLqze7CGZ--0" target="RIkWLJw2QVvLqze7CGZ--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIkWLJw2QVvLqze7CGZ--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RIkWLJw2QVvLqze7CGZ--0" target="RIkWLJw2QVvLqze7CGZ--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIkWLJw2QVvLqze7CGZ--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RIkWLJw2QVvLqze7CGZ--0" target="RIkWLJw2QVvLqze7CGZ--1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RIkWLJw2QVvLqze7CGZ--0" value="StorageInMemoryMetadata" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="430" width="170" height="30" as="geometry" />
+          <mxGeometry x="490" y="520" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RIkWLJw2QVvLqze7CGZ--1" value="ColumnsDescription" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="430" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIkWLJw2QVvLqze7CGZ--3" value="IndicesDescription" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="490" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIkWLJw2QVvLqze7CGZ--5" value="KeyDescription" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="550" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIkWLJw2QVvLqze7CGZ--7" value="TTLColumnsDescription" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="612.5" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
