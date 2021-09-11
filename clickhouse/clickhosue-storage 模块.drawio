@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-11T06:59:47.696Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="D4j4PcrRsI42KimaQV83" version="15.0.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-11T07:58:18.887Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="0QWPqEpdJu46cA12D31n" version="15.0.6" type="github" pages="6">
   <diagram id="d840oHEeSaUvoDcaOn_S" name="Core">
     <mxGraphModel dx="1350" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2522,7 +2522,7 @@
       <root>
         <mxCell id="VBwoz6EEgol09GtuixbD-0" />
         <mxCell id="VBwoz6EEgol09GtuixbD-1" parent="VBwoz6EEgol09GtuixbD-0" />
-        <mxCell id="VBwoz6EEgol09GtuixbD-15" value="压缩块起始偏移量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VBwoz6EEgol09GtuixbD-1">
+        <mxCell id="VBwoz6EEgol09GtuixbD-15" value="压缩文件中的偏移量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VBwoz6EEgol09GtuixbD-1">
           <mxGeometry x="120" y="340" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VBwoz6EEgol09GtuixbD-17" value="解压缩块起始偏移量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VBwoz6EEgol09GtuixbD-1">
@@ -2578,6 +2578,12 @@
         </mxCell>
         <mxCell id="VBwoz6EEgol09GtuixbD-46" value="4 bytes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VBwoz6EEgol09GtuixbD-1">
           <mxGeometry x="325" y="750" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VBwoz6EEgol09GtuixbD-47" value="x" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VBwoz6EEgol09GtuixbD-1">
+          <mxGeometry x="120" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBwoz6EEgol09GtuixbD-48" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="VBwoz6EEgol09GtuixbD-1">
+          <mxGeometry x="240" y="490" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
