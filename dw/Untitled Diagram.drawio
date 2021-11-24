@@ -1,35 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T07:24:07.007Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="veo5jZWaMsCyRYukJVzY" version="15.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-24T07:31:23.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="IS3iVah2ZnT8Qd9kDbSp" version="15.3.4" type="github">
   <diagram id="vIoO5Jf6p4e1B2wPpIrY" name="Page-1">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="npIwkMfpUMfoGZDDESw5-1" value="ATSX" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="150" y="390" width="80" height="30" as="geometry" />
+          <mxGeometry x="130" y="560" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npIwkMfpUMfoGZDDESw5-2" value="Elearning" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="250" y="390" width="80" height="30" as="geometry" />
+          <mxGeometry x="230" y="560" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npIwkMfpUMfoGZDDESw5-3" value="OKR" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="360" y="390" width="80" height="30" as="geometry" />
+          <mxGeometry x="340" y="560" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npIwkMfpUMfoGZDDESw5-4" value="CoreHr" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="470" y="390" width="80" height="30" as="geometry" />
+          <mxGeometry x="450" y="560" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npIwkMfpUMfoGZDDESw5-5" value="IPaas" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="580" y="390" width="80" height="30" as="geometry" />
+          <mxGeometry x="560" y="560" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npIwkMfpUMfoGZDDESw5-6" value="BI Mysql" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="150" y="320" width="510" height="30" as="geometry" />
+          <mxGeometry x="130" y="490" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npIwkMfpUMfoGZDDESw5-7" value="ATSX CH集群" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="150" y="170" width="120" height="110" as="geometry" />
+          <mxGeometry x="140" y="340" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="npIwkMfpUMfoGZDDESw5-8" value="OKR CH集群" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="345" y="170" width="120" height="110" as="geometry" />
+          <mxGeometry x="280" y="340" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="npIwkMfpUMfoGZDDESw5-9" value="CoreHr CH集群" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
-          <mxGeometry x="530" y="170" width="120" height="110" as="geometry" />
+          <mxGeometry x="420" y="340" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="npIwkMfpUMfoGZDDESw5-10" value="查询引擎（指标、维度、报表配置）" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npIwkMfpUMfoGZDDESw5-11" value="ATSX 报表展示" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npIwkMfpUMfoGZDDESw5-12" value="OKR 报表展示" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npIwkMfpUMfoGZDDESw5-13" value="Corehr" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npIwkMfpUMfoGZDDESw5-14" value="Elearning" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="550" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="npIwkMfpUMfoGZDDESw5-15" value="Ariflow 调度" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;pointerEvents=0;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="550" y="330" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
